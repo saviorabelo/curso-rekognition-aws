@@ -17,7 +17,6 @@ def bbox_to_coords(bbox, img_width, img_height):
 client = boto3.client('rekognition', 'us-east-1')
 
 imgurl = 'http://media.comicbook.com/uploads1/2015/07/fox-comic-con-panel-144933.jpg'
-
 imgbytes = image_helpers.get_image_from_url(imgurl)
 
 rekresp = client.detect_faces(
