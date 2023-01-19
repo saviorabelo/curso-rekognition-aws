@@ -1,5 +1,5 @@
-import boto3
 import io
+import boto3
 from PIL import Image, ImageDraw, ImageFont
 
 file_name = 'computer.jpg'
